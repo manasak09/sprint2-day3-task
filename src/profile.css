@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wight@400;500;600&display=swap");
+:root {
+    --header-height: 3.5rem;
+    --first-color: hsl(273, 97%, 66%);
+    --tittle-color-shape: hsl(273, 8%, 15%);
+    --text-color: hsl(273, 8%, 15%);
+    --body-color: hsl(273, 8%, 15%);
+    --container-color: #fff;
+    --title-color-dark: hsl(273, 83%, 98%);
+    --text-color-dark: hsl(273, 21%, 56%);
+    --container-color-dark: hsl(273, 80%, 14%);
+    --body-font: 'poopins', sans-serif;
+    --body-font-size: 1.5rem;
+    --normal-font-size: .813rem;
+    --z-fixed: 100;
+}
+
+@media screen and (min-width:968px) {
+     :root {
+        --big-font-sixe: 2rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
